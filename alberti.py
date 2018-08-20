@@ -44,10 +44,6 @@ def rotateInnerDisk(newIndex):
     movable_disk.rotate(len(movable_disk) - initMovable(newIndex))
 
 
-def rotateOuterDisk(newIndex):
-    stationary_disk.rotate(initStationary(newIndex) - len(stationary_disk))
-
-
 def loopThroughContent():
     for char in content:
         pos = 0
