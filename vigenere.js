@@ -30,6 +30,7 @@ Array.prototype.rotate = function(n) {
 }
 
 
+
 function generateAlphabets() {
 	let alphabets = []
 	for (let index = 0; index < 26; index++) {
